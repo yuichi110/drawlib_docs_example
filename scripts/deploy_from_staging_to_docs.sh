@@ -16,11 +16,11 @@ cd "$(dirname "$0")"
 cd ../
 
 # delete old production
-rm -rf ./production
+rm -rf ./docs
 
 # copy latest staging to production
-cp -r ./staging ./production
+cp -r ./staging ./docs
 
 # create .nojekyll
-cd ./production
+cd ./docs
 touch .nojekyll

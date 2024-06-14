@@ -22,4 +22,4 @@ source .venv/bin/activate
 rm -rf ./staging
 
 # build to html
-sphinx-build -a ./docs ./staging
+sphinx-build -a ./source ./staging

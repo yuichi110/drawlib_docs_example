@@ -19,4 +19,4 @@ cd ../
 source .venv/bin/activate
 
 # build
-drawlib ./docs/chapter01
+drawlib ./source/chapter01
